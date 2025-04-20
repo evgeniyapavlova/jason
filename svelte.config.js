@@ -7,7 +7,7 @@ const config = {
 		adapter: adapter(),
 
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/jasontrader' : ''
+			base: process.env.NODE_ENV === 'production' ? '/jason' : ''
 		}
 	},
 	alias: {
