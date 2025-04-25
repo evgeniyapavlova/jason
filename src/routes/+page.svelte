@@ -1,10 +1,10 @@
 <script>
-	import AllBlocksES from '$comps/AllBlocksES.svelte';
+	import AllBlocksTH from '$comps/AllBlocksTH.svelte';
 	import meta_img from '$lib/images/meta__img__en.jpg';
 
-	const title = 'Cómo utilizar sistemas para extraer beneficios de los mercados';
+	const title = 'วิธีใช้ระบบเพื่อดึงกำไรจากตลาด';
 	const desc =
-		'FORMACIÓN SIN COSTE PARA TRADERS ASPIRANTES - ¡Por qué el Método Sistemático es realmente su mejor apuesta para ganar dinero en los mercados!';
+		'การฝึกอบรมฟรีสำหรับนักเทรดที่มีความตั้งใจ - ทำไมวิธีการทางระบบถึงเป็นทางเลือกที่ดีที่สุดในการทำเงินจากตลาด!';
 </script>
 
 <svelte:head>
@@ -19,4 +19,4 @@
 	<meta name="twitter:image" content={meta_img} />
 </svelte:head>
 
-<AllBlocksES />
+<AllBlocksTH />
